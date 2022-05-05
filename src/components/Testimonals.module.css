@@ -1,0 +1,49 @@
+.testimonals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 300px;
+    text-align: center;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: rgb(147, 143, 143);
+    font-weight: bold;
+    font-family: Fraunces;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.text{
+    margin-top: 2em;
+    font-weight: 500;
+    color: rgb(71, 69, 69);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 10px;
+}
+.name{
+    font-family: Fraunces;
+    font-weight: 700;
+    color: rgb(44, 41, 41);
+}
+.desg{
+    font-size: 14px;
+    font-family: Barlow;
+    color: rgb(114, 109, 109);
+}
